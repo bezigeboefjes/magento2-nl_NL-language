@@ -1,6 +1,6 @@
 {
-  "name": "adwise/language-nl_nl",
-  "description": "Adwise Dutch Language Pack for Magento 2 (CE)",
+  "name": "bezigeboefjes/language-nl_nl",
+  "description": "Bezige boefjes Dutch Language Pack for Magento 2 (CE)",
   "version": "1.2.2",
   "license": [
     "OSL-3.0",
