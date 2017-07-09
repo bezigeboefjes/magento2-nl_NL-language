@@ -8368,3 +8368,4 @@ Account,Account,module,Magento_Theme
 "Check out faster","Reken sneller af","module","Magento_Checkout"
 "Checkout out using your account","Log in om af te rekenen","module","Magento_Checkout"
 "Click <a href=""%1"">here</a> to continue shopping.","Terug naar de <a href=""%1"">webshop</a>.","module","Magento_Checkout"
+"Email Address","E-mail adres","module","Magento_Checkout"
