@@ -8370,7 +8370,6 @@ Account,Account,module,Magento_Theme
 "Click <a href=""%1"">here</a> to continue shopping.","Terug naar de <a href=""%1"">webshop</a>.","module","Magento_Checkout"
 "Email Address","E-mail adres","module","Magento_Checkout"
 "Provided Zip/Postal Code seems to be invalid.","Opgegeven postcode lijkt ongeldig.",module,Magento_Checkout
-Example:,Voorbeeld:,module,Magento_Checkout
+"Example:","Voorbeeld:",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Als je gelooft dat het de juiste is, kun je dit bericht negeren.",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Weet je zeker dat je dit product wilt verwijderen uit de winkelwagen?",module,Magento_Checkout
-
