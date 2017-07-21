@@ -31,7 +31,7 @@
 "Please go to <a href="%1">Cache Management</a> and refresh cache types.","Ga naar <a href="%1">Cache Management</a> en ververs de cache types.","module","Magento_AdminNotification"
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","We waren niet in staat om &eacute;&eacute;n of meer mediabestanden te synchroniseren. We verwijzen je naar het logbestand voor meer informatie.","module","Magento_AdminNotification"
 "Synchronization of media storages has been completed.","Synchronisatie opslagmedia is voltooid.","module","Magento_AdminNotification"
-"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Uw webserver is verkeerd ingesteld en geeft ongeautoriseerde toegang tot gevoelige bestanden. Neem contact op met je hosting provider.","module","Magento_AdminNotification"
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Je webserver is verkeerd ingesteld en geeft ongeautoriseerde toegang tot gevoelige bestanden. Neem contact op met je hosting provider.","module","Magento_AdminNotification"
 "Close popup","Sluit pop-up","module","Magento_AdminNotification"
 "Close","Sluit","module","Magento_AdminNotification"
 "System Messages:","Systeembericht:","module","Magento_AdminNotification"
@@ -1311,7 +1311,7 @@ fl,fl,module,Magento_Catalog
 "Learn More","Leer meer","module","Magento_Catalog"
 "We found other products you might like!","We vonden andere producten die je misschien leuk vindt!","module","Magento_Catalog"
 "More Choices:","Meer keuzes:","module","Magento_Catalog"
-"Check items to add to the cart or","Check items om aan winkelwagen toe te voegen of","module","Magento_Catalog"
+"Check items to add to the cart or","Vink items om aan winkelwagen toe te voegen of","module","Magento_Catalog"
 "select all","selecteer alles","module","Magento_Catalog"
 "Items %1-%2 of %3","Items %1-%2 van %3","module","Magento_Catalog"
 "%1 Item","%1 Item",module,Magento_Catalog
@@ -8373,3 +8373,54 @@ Account,Account,module,Magento_Theme
 "Example:","Voorbeeld:",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Als je gelooft dat het de juiste is, kun je dit bericht negeren.",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Weet je zeker dat je dit product wilt verwijderen uit de winkelwagen?",module,Magento_Checkout
+"Checkout agreement with specified ID ""%1"" not found.","Betalingsovereenkomst met het opgegeven kenmerk %1 niet gevonden.",module,Magento_CheckoutAgreements
+"A letter with further instructions will be sent to your email.","Een bericht met verdere instructies zal worden verzonden naar je e-mailadres.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now.","We kunnen dit product nu niet aan je winkelwagen toevoegen.",module,Magento_Bundle
+"You used coupon code ""%1"".","Je hebt kortingscode ""%1"" gebruikt.",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Kortingscode ""%1"" is niet geldig.",module,Magento_Checkout
+"We can't remove the item.","Het product kan niet verwijderd worden.",module,Magento_Checkout
+"We can't find the quote item.","Product in offerte niet gevonden.",module,Magento_Checkout
+"We can't update the item right now.","Het product kon niet worden bijgewerkt.",module,Magento_Checkout
+"We can't update the shopping cart.","We kunnen je winkelwagen niet bijwerken.",module,Magento_Checkout
+Checkout,Afrekenen,module,Magento_Checkout
+"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 breidt \Magento\Checkout\CustomerData\ItemInterface niet uit",module,Magento_Checkout
+"We can't find the product.","We kunnen het product niet vinden.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte.",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.",,module,Magento_Checkout
+" item"," item",module,Magento_Checkout
+" items"," items",module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Je moet je account bevestigen. Controleer je email voor de bevestigingslink of <a href=""%1""> Klik hier</a> voor een nieuwe link.",module,Magento_Checkout
+"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Bon afdrukken</a>",module,Magento_Checkout
+Item,Item,module,Magento_Checkout
+"Order #",Ordernr.,module,Magento_Checkout
+"We'll email you an order confirmation with details and tracking info.","We sturen je een orderbevestiging met verdere details en informatie.",module,Magento_Checkout
+"We can't process Express Checkout approval.","We kunnen de Express betalingskeuring niet verwerken.",module,Magento_Paypal
+"We can't initialize Express Checkout review.","Kan de Express Checkout review niet initialiseren.",module,Magento_Paypal
+"We can't start Express Checkout.","We kunnen Express Checkout niet starten.",module,Magento_Paypal
+"We can't initialize Express Checkout.","Wij kunnen de express betaling niet initialiseren.",module,Magento_Paypal
+"Express Checkout APIs","Express Checkout APIs",module,Magento_Paypal
+"My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde",module,Magento_Checkout
+Update,Bijwerken,module,Magento_Checkout
+"Estimated Total","Geschatte totaal",module,Magento_Checkout
+item,item,module,Magento_Checkout
+items,items,module,Magento_Checkout
+"Recently added item(s)","Onlangs toegevoegde items",module,Magento_Checkout
+"No Payment method available.","Geen betaalmethode beschikbaar.",module,Magento_Checkout
+"You can track your order status by creating an account.","Door het aanmaken van een account, kunt je de status van je bestelling bijhouden.",module,Magento_Checkout
+"Forgot an Item?","Iets vergeten?",module,Magento_Checkout
+"Edit Your Cart","Winkelwagen bewerken",module,Magento_Checkout
+"Ship Here","Verzend hier",module,Magento_Checkout
+"Ship To:","Verzenden naar:",module,Magento_Checkout
+edit,bewerken,module,Magento_Checkout
+"Select Method","Selecteer methode",module,Magento_Checkout
+"Method Title","Titel methode",module,Magento_Checkout
+"Carrier Title","Titel van de vervoerder",module,Magento_Checkout
+"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order",module,Magento_Checkout
+"Item in Cart","Product in winkelwagen",module,Magento_Checkout
+"Items in Cart","Producten in winkelwagen",module,Magento_Checkout
+"View Details","Bekijk details",module,Magento_Checkout
+"Provided Zip/Postal Code seems to be invalid.","Opgegeven postcode lijkt ongeldig.",module,Magento_Checkout
+" Example: "," Voorbeeld: ",module,Magento_Checkout
+"If you believe it is the right one you can ignore this notice.","Als je gelooft dat het de juiste is, kunt je dit bericht negeren.",module,Magento_Checkout
+"Select a new payment method","Selecteer een nieuwe betaalmethode",module,Magento_Checkout
+
