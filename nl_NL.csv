@@ -8373,54 +8373,965 @@ Account,Account,module,Magento_Theme
 "Example:","Voorbeeld:",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Als je gelooft dat het de juiste is, kun je dit bericht negeren.",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Weet je zeker dat je dit product wilt verwijderen uit de winkelwagen?",module,Magento_Checkout
-"Checkout agreement with specified ID ""%1"" not found.","Betalingsovereenkomst met het opgegeven kenmerk %1 niet gevonden.",module,Magento_CheckoutAgreements
-"A letter with further instructions will be sent to your email.","Een bericht met verdere instructies zal worden verzonden naar je e-mailadres.",module,Magento_Checkout
-"We can't add this item to your shopping cart right now.","We kunnen dit product nu niet aan je winkelwagen toevoegen.",module,Magento_Bundle
-"You used coupon code ""%1"".","Je hebt kortingscode ""%1"" gebruikt.",module,Magento_Checkout
-"The coupon code ""%1"" is not valid.","Kortingscode ""%1"" is niet geldig.",module,Magento_Checkout
-"We can't remove the item.","Het product kan niet verwijderd worden.",module,Magento_Checkout
-"We can't find the quote item.","Product in offerte niet gevonden.",module,Magento_Checkout
-"We can't update the item right now.","Het product kon niet worden bijgewerkt.",module,Magento_Checkout
-"We can't update the shopping cart.","We kunnen je winkelwagen niet bijwerken.",module,Magento_Checkout
-Checkout,Afrekenen,module,Magento_Checkout
-"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 breidt \Magento\Checkout\CustomerData\ItemInterface niet uit",module,Magento_Checkout
-"We can't find the product.","We kunnen het product niet vinden.",module,Magento_Checkout
-"We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte.",module,Magento_Checkout
+"Could not save the translation: %1",,module,Experius_MissingTranslations
+"Translation with id ""%1"" does not exist.",,module,Experius_MissingTranslations
+"Could not delete the Translation: %1",,module,Experius_MissingTranslations
+phrase,,module,Experius_MissingTranslations
+"Delete ""${ $.$data.title }""",,module,Experius_MissingTranslations
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?",,module,Experius_MissingTranslations
+Postcode,,module,Experius_Postcode
+"The test connection could not be successfully completed.",,module,Experius_Postcode
+"Your servers' 'cURL SSL CA bundle' is missing or outdated. Further information:",,module,Experius_Postcode
+"The service might be temporarily unavailable, if problems persist, please contact <a href='mailto:info@postcode.nl'>info@postcode.nl</a>.",,module,Experius_Postcode
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",,module,Magento_Authorization
+"We can't process your order right now. Please try again later.",,module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.",,module,Magento_Authorizenet
+"This payment didn't work out because we can't find this order.",,module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.",,module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""",,module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.",,module,Magento_Authorizenet
+Database,,module,Magento_Backup
+"The backup file ""%1"" does not exist.",,module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".",,module,Magento_Backup
+"We can't save the Cron expression.",,module,Magento_Backup
+"We can't initialize checkout.",,module,Magento_Braintree
+"Payment method nonce can't be retrieved.",,module,Magento_Braintree
+"PayPal Account",,module,Magento_Braintree
+"PayPal Logo",,module,Magento_Braintree
+"There is no defined renderer for ""%1"" option type.",,module,Magento_Bundle
+"Product with specified sku: ""%1"" is not a bundle product",,module,Magento_Bundle
+"Can not find product link with id ""%1""",,module,Magento_Bundle
+"Could not save child: ""%1""",,module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""",,module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""",,module,Magento_Bundle
+"Requested bundle option product doesn't exist",,module,Magento_Bundle
+"%fieldName is a required field.",,module,Magento_Bundle
+"Requested option doesn't exist",,module,Magento_Bundle
+"We can't add this item to your shopping cart right now.",,module,Magento_Bundle
+N/A,,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.",,module,Magento_Bundle
+Drop-down,,module,Magento_Bundle
+Checkbox,,module,Magento_Bundle
+SKU,,module,Magento_Bundle
+"%1 x %2",,module,Magento_Bundle
+"We can't rebuild the index for an undefined product.",,module,Magento_CatalogInventory
+"Stock Item with id ""%1"" does not exist.",,module,Magento_CatalogInventory
+"Stock with id ""%1"" does not exist.",,module,Magento_CatalogInventory
+"Product with SKU ""%1"" does not exist",,module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.",,module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.",,module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.",,module,Magento_CatalogInventory
+"We can't rebuild the index for an undefined product.",,module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.",,module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.",,module,Magento_CatalogRule
+Home,,module,Magento_CatalogSearch
+"%1 - %2",,module,Magento_CatalogSearch
+"Bucket does not exist",,module,Magento_CatalogSearch
+Product,,module,Magento_CatalogSearch
+"We can't find any items matching these search criteria.",,module,Magento_CatalogSearch
+SKU,,module,Magento_CatalogWidget
+Home,,module,Magento_Catalog
+N/A,,module,Magento_Catalog
+AM,,module,Magento_Catalog
+PM,,module,Magento_Catalog
+"1 item",,module,Magento_Catalog
+"%1 items",,module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.",,module,Magento_Catalog
+"Sorry, but we can't find the new category you selected.",,module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.",,module,Magento_Catalog
+"Can't delete root category.",,module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.",,module,Magento_Catalog
+frontend_label,,module,Magento_Catalog
+[WEBSITE],,module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3",,module,Magento_Catalog
+"Could not save product ""%product"" with position %position to category %category",,module,Magento_Catalog
+"Attribute ""%1"" is required.",,module,Magento_Catalog
+Website,,module,Magento_Catalog
+label,,module,Magento_Catalog
+"Parent Product Thumbnail",,module,Magento_Catalog
+"12h AM/PM",,module,Magento_Catalog
+24h,,module,Magento_Catalog
+Stretch,,module,Magento_Catalog
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel",,module,Magento_Catalog
+"Unknown EAV indexer type ""%1"".",,module,Magento_Catalog
+"We can't rebuild the index for an undefined product.",,module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module",,module,Magento_Catalog
+"Unsupported product type ""%1"".",,module,Magento_Catalog
+"%1 - %2",,module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface",,module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter",,module,Magento_Catalog
+"The value of attribute ""%1"" must be set",,module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.",,module,Magento_Catalog
+"We couldn't copy file %1. Please delete media with non-existing images and try again.",,module,Magento_Catalog
+"Such product doesn't exist",,module,Magento_Catalog
+"Such image doesn't exist",,module,Magento_Catalog
+"We couldn't move this file: %1.",,module,Magento_Catalog
+"We can't find the image file.",,module,Magento_Catalog
+"Please specify product's required option(s).",,module,Magento_Catalog
+"We can't add the product to the cart because of an option validation issue.",,module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType",,module,Magento_Catalog
+px.,,module,Magento_Catalog
+"File '%1' is not an image.",,module,Magento_Catalog
+"This product doesn't have tier price",,module,Magento_Catalog
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3",,module,Magento_Catalog
+"We can't create writeable directory ""%1"".",,module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType",,module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price",,module,Magento_Catalog
+"Group with id ""%1"" does not exist.",,module,Magento_Catalog
+"Provided link type ""%1"" does not exist",,module,Magento_Catalog
+"Product with SKU '%1' is not linked to product with SKU '%2'",,module,Magento_Catalog
+"Product %1 doesn't have linked %2 as %3",,module,Magento_Catalog
+"Requested product doesn't exist",,module,Magento_Catalog
+"Product with SKU ""%1"" does not exist",,module,Magento_Catalog
+"Could not assign product ""%1"" to websites ""%2""",,module,Magento_Catalog
+"Could not save product ""%1"" with websites %2",,module,Magento_Catalog
+"Attribute '%1' is locked. %2",,module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface",,module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",,module,Magento_Catalog
+Dropdown,,module,Magento_Catalog
+"%1 doesn't extend \Magento\Framework\Filter\Template",,module,Magento_Catalog
+"WYSIWYG Editor",,module,Magento_Catalog
+SKU,,module,Magento_Catalog
+%1,,module,Magento_Catalog
+"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.",,module,Magento_Catalog
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.",,module,Magento_Catalog
+ID,,module,Magento_Catalog
+Thumbnail,,module,Magento_Catalog
+Status,,module,Magento_Catalog
+"If your Magento site has multiple views, you can set the scope to apply to a specific view.",,module,Magento_Catalog
+Websites,,module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.",,module,Magento_Catalog
+"Buy %1 for: ",,module,Magento_Catalog
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",,module,Magento_Catalog
+Product,,module,Magento_Catalog
+"We can't find products matching the selection.",,module,Magento_Catalog
+"%1 Item",,module,Magento_Catalog
+"%1 Items",,module,Magento_Catalog
+"Checkout agreement with specified ID ""%1"" not found.",,module,Magento_CheckoutAgreements
+"A letter with further instructions will be sent to your email.",,module,Magento_Checkout
+"We can't add this item to your shopping cart right now.",,module,Magento_Checkout
+"You used coupon code ""%1"".",,module,Magento_Checkout
+"The coupon code ""%1"" is not valid.",,module,Magento_Checkout
+"We can't remove the item.",,module,Magento_Checkout
+"We can't find the quote item.",,module,Magento_Checkout
+"We can't update the item right now.",,module,Magento_Checkout
+"We can't update the shopping cart.",,module,Magento_Checkout
+Checkout,,module,Magento_Checkout
+"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface",,module,Magento_Checkout
+"We can't find the product.",,module,Magento_Checkout
+"We found an invalid request for adding product to quote.",,module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.",,module,Magento_Checkout
-" item"," item",module,Magento_Checkout
-" items"," items",module,Magento_Checkout
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Je moet je account bevestigen. Controleer je email voor de bevestigingslink of <a href=""%1""> Klik hier</a> voor een nieuwe link.",module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Bon afdrukken</a>",module,Magento_Checkout
-Item,Item,module,Magento_Checkout
-"Order #",Ordernr.,module,Magento_Checkout
-"We'll email you an order confirmation with details and tracking info.","We sturen je een orderbevestiging met verdere details en informatie.",module,Magento_Checkout
-"We can't process Express Checkout approval.","We kunnen de Express betalingskeuring niet verwerken.",module,Magento_Paypal
-"We can't initialize Express Checkout review.","Kan de Express Checkout review niet initialiseren.",module,Magento_Paypal
-"We can't start Express Checkout.","We kunnen Express Checkout niet starten.",module,Magento_Paypal
-"We can't initialize Express Checkout.","Wij kunnen de express betaling niet initialiseren.",module,Magento_Paypal
-"Express Checkout APIs","Express Checkout APIs",module,Magento_Paypal
-"My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde",module,Magento_Checkout
-Update,Bijwerken,module,Magento_Checkout
-"Estimated Total","Geschatte totaal",module,Magento_Checkout
-item,item,module,Magento_Checkout
-items,items,module,Magento_Checkout
-"Recently added item(s)","Onlangs toegevoegde items",module,Magento_Checkout
-"No Payment method available.","Geen betaalmethode beschikbaar.",module,Magento_Checkout
-"You can track your order status by creating an account.","Door het aanmaken van een account, kunt je de status van je bestelling bijhouden.",module,Magento_Checkout
-"Forgot an Item?","Iets vergeten?",module,Magento_Checkout
-"Edit Your Cart","Winkelwagen bewerken",module,Magento_Checkout
-"Ship Here","Verzend hier",module,Magento_Checkout
-"Ship To:","Verzenden naar:",module,Magento_Checkout
-edit,bewerken,module,Magento_Checkout
-"Select Method","Selecteer methode",module,Magento_Checkout
-"Method Title","Titel methode",module,Magento_Checkout
-"Carrier Title","Titel van de vervoerder",module,Magento_Checkout
-"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order",module,Magento_Checkout
-"Item in Cart","Product in winkelwagen",module,Magento_Checkout
-"Items in Cart","Producten in winkelwagen",module,Magento_Checkout
-"View Details","Bekijk details",module,Magento_Checkout
-"Provided Zip/Postal Code seems to be invalid.","Opgegeven postcode lijkt ongeldig.",module,Magento_Checkout
-" Example: "," Voorbeeld: ",module,Magento_Checkout
-"If you believe it is the right one you can ignore this notice.","Als je gelooft dat het de juiste is, kunt je dit bericht negeren.",module,Magento_Checkout
-"Select a new payment method","Selecteer een nieuwe betaalmethode",module,Magento_Checkout
-
+" item",,module,Magento_Checkout
+" items",,module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.",,module,Magento_Checkout
+"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>",,module,Magento_Checkout
+Item,,module,Magento_Checkout
+"Order #",,module,Magento_Checkout
+"We'll email you an order confirmation with details and tracking info.",,module,Magento_Checkout
+Home,,module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.",,module,Magento_Cms
+"This identifier is reserved for ""CMS No Route Page"" in configuration.",,module,Magento_Cms
+"This identifier is reserved for ""CMS Home Page"" in configuration.",,module,Magento_Cms
+"This identifier is reserved for ""CMS No Cookies Page"" in configuration.",,module,Magento_Cms
+"CMS Page with id ""%1"" does not exist.",,module,Magento_Cms
+"We can't upload the file right now.",,module,Magento_Cms
+"We can't delete root directory %1 right now.",,module,Magento_Cms
+"Delete ""${ $.$data.title }""",,module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?",,module,Magento_Cms
+"Are you sure you wan't to delete a ${ $.$data.title } record?",,module,Magento_Cms
+[WEBSITE],,module,Magento_Config
+"Use system value",,module,Magento_Config
+"Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".",,module,Magento_Config
+"Selected allowed currency ""%1"" is not available in installed currencies.",,module,Magento_Config
+"Default display currency ""%1"" is not available in allowed currencies.",,module,Magento_Config
+"Sorry, we haven't installed the base currency you selected.",,module,Magento_Config
+"We can't save the Cron expression.",,module,Magento_Config
+"Sorry, we haven't installed the default display currency you selected.",,module,Magento_Config
+"Please correct the email address: ""%1"".",,module,Magento_Config
+"The sender name ""%1"" is not valid. Please use only visible characters and spaces.",,module,Magento_Config
+%1,,module,Magento_Config
+"The file you're uploading exceeds the server size limit of %1 kilobytes.",,module,Magento_Config
+"website(%1) scope",,module,Magento_Config
+"store(%1) scope",,module,Magento_Config
+"Currency ""%1"" is used as %2 in %3.",,module,Magento_Config
+Bcc,,module,Magento_Config
+Website,,module,Magento_Config
+"HTTP (unsecure)",,module,Magento_Config
+"HTTPS (SSL)",,module,Magento_Config
+.,,module,Magento_Config
+"'There is no defined type ' .",,module,Magento_Config
+"'Object is not instance of ' .",,module,Magento_Config
+"Parent product does not have configurable product options",,module,Magento_ConfigurableProduct
+"Child product does not have attribute value %1",,module,Magento_ConfigurableProduct
+"Requested option doesn't exist",,module,Magento_ConfigurableProduct
+"Requested option doesn't exist: %1",,module,Magento_ConfigurableProduct
+"Option with id ""%1"" not found",,module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".",,module,Magento_ConfigurableProduct
+"Products ""%1"" and ""%2"" have the same set of attribute values.",,module,Magento_ConfigurableProduct
+"You can't add the item to shopping cart.",,module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).",,module,Magento_ConfigurableProduct
+"Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.",,module,Magento_ConfigurableProduct
+SKU,,module,Magento_ConfigurableProduct
+Status,,module,Magento_ConfigurableProduct
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.",,module,Magento_Contact
+"We can't process your request right now. Sorry, that's all we know.",,module,Magento_Contact
+"<a href=""%1"">Learn more</a>.",,module,Magento_Cookie
+"You don't subscribe to our newsletter.",,module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.",,module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.",,module,Magento_Customer
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.",,module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.",,module,Magento_Customer
+"We can't save the customer.",,module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.",,module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.",,module,Magento_Customer
+"Password confirmation doesn't match entered password.",,module,Magento_Customer
+"The password doesn't match this account.",,module,Magento_Customer
+"We're unable to send the password reset email.",,module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.",,module,Magento_Customer
+"An unspecified error occurred. Please contact us for assistance.",,module,Magento_Customer
+"We can't delete the address right now.",,module,Magento_Customer
+"We can't save the address.",,module,Magento_Customer
+"""%1"" section source is not supported",,module,Magento_Customer
+"%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface",,module,Magento_Customer
+"The account is locked.",,module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.",,module,Magento_Customer
+"Please enter a password with at most %1 characters.",,module,Magento_Customer
+"The password can't begin or end with a space.",,module,Magento_Customer
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",,module,Magento_Customer
+"%fieldName is a required field.",,module,Magento_Customer
+"""%1"" is a required value.",,module,Magento_Customer
+"We can't share customer accounts globally when the accounts share identical email addresses on more than one website.",,module,Magento_Customer
+Admin,,module,Magento_Customer
+"No such entity with %fieldName = %fieldValue, %field2Name = %field2Value",,module,Magento_Customer
+"Unable to create directory %1.",,module,Magento_Customer
+"Destination folder is not writable or does not exists.",,module,Magento_Customer
+"Something went wrong while saving the file.",,module,Magento_Customer
+"""%1"" invalid type entered.",,module,Magento_Customer
+"""%1"" contains non-alphabetic or non-numeric characters.",,module,Magento_Customer
+"""%1"" is an empty string.",,module,Magento_Customer
+"""%1"" contains non-numeric characters.",,module,Magento_Customer
+"""%1"" contains non-alphabetic characters.",,module,Magento_Customer
+"""%1"" is not a valid email address.",,module,Magento_Customer
+"""%1"" is not a valid hostname.",,module,Magento_Customer
+"""%1"" uses too many characters.",,module,Magento_Customer
+"""%1"" is not a valid URL.",,module,Magento_Customer
+"""%1"" is not a valid date.",,module,Magento_Customer
+"""%1"" does not fit the entered date format.",,module,Magento_Customer
+"""%1"" is not a valid file extension.",,module,Magento_Customer
+"""%1"" is not a valid file.",,module,Magento_Customer
+"""%1"" exceeds the allowed file size.",,module,Magento_Customer
+"""%1"" is not a valid image format.",,module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.",,module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.",,module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.",,module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.",,module,Magento_Customer
+label,,module,Magento_Customer
+"You can't delete group ""%1"".",,module,Magento_Customer
+"Your VAT ID was successfully validated.",,module,Magento_Customer
+"The VAT ID entered (%1) is not a valid VAT ID.",,module,Magento_Customer
+Locked,,module,Magento_Customer
+"You subscribe to ""General Subscription"".",,module,Magento_Customer
+Fax,,module,Magento_Customer
+"It's a default billing address.",,module,Magento_Customer
+"It's a default shipping address.",,module,Magento_Customer
+"Change Email",,module,Magento_Customer
+"Change Email and Password",,module,Magento_Customer
+"Password Strength",,module,Magento_Customer
+"No Password",,module,Magento_Customer
+"Cannot switch into given mode ""%1""",,module,Magento_Deploy
+"Compilation from source: ",,module,Magento_Deploy
+"Wrong deploy strategy type: %1",,module,Magento_Deploy
+Inches,,module,Magento_Dhl
+Centimeters,,module,Magento_Dhl
+inch,,module,Magento_Dhl
+cm,,module,Magento_Dhl
+Sprintline,,module,Magento_Dhl
+Secureline,,module,Magento_Dhl
+Europack,,module,Magento_Dhl
+Others,,module,Magento_Dhl
+"Globalmail business",,module,Magento_Dhl
+"Same day",,module,Magento_Dhl
+Jetline,,module,Magento_Dhl
+"Jumbo box",,module,Magento_Dhl
+"Error #%1 : %2",,module,Magento_Dhl
+"We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).",,module,Magento_Dhl
+DHL,,module,Magento_Dhl
+"Please specify origin country.",,module,Magento_Dhl
+lbs,,module,Magento_Directory
+"Undefined rate from ""%1-%2"".",,module,Magento_Directory
+label,,module,Magento_Directory
+"We can't retrieve a rate from %1 for %2.",,module,Magento_Directory
+"We can't retrieve a rate from %1.",,module,Magento_Directory
+"We can't initialize the import model.",,module,Magento_Directory
+"Please sign in to download your product or purchase <a href=""%1"">%2</a>.",,module,Magento_Downloadable
+"Link file not provided",,module,Magento_Downloadable
+"Provided product must be type 'downloadable'.",,module,Magento_Downloadable
+"Cannot delete link with id %1",,module,Magento_Downloadable
+"Sample file not provided",,module,Magento_Downloadable
+"Cannot delete sample with id %1",,module,Magento_Downloadable
+"Upload File",,module,Magento_Downloadable
+URL,,module,Magento_Downloadable
+inline,,module,Magento_Downloadable
+"To enable the option set the weight to no",,module,Magento_Downloadable
+Links,,module,Magento_Downloadable
+"Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.",,module,Magento_Downloadable
+"Add Link",,module,Magento_Downloadable
+Shareable,,module,Magento_Downloadable
+"Max. Downloads",,module,Magento_Downloadable
+Samples,,module,Magento_Downloadable
+sample,,module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>",,module,Magento_Downloadable
+"Order #",,module,Magento_Downloadable
+Status,,module,Magento_Downloadable
+"Start Download",,module,Magento_Downloadable
+SKU,,module,Magento_Downloadable
+download,,module,Magento_Downloadable
+URL,,module,Magento_Eav
+Letters,,module,Magento_Eav
+"""%1"" invalid type entered.",,module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.",,module,Magento_Eav
+"""%1"" is an empty string.",,module,Magento_Eav
+"""%1"" contains non-numeric characters.",,module,Magento_Eav
+"""%1"" contains non-alphabetic characters.",,module,Magento_Eav
+"""%1"" is not a valid email address.",,module,Magento_Eav
+"""%1"" is not a valid hostname.",,module,Magento_Eav
+"""%1"" uses too many characters.",,module,Magento_Eav
+"""%1"" is not a valid URL.",,module,Magento_Eav
+"""%1"" is not a valid date.",,module,Magento_Eav
+"""%1"" does not fit the entered date format.",,module,Magento_Eav
+"""%1"" is a required value.",,module,Magento_Eav
+"""%1"" is not a valid file extension.",,module,Magento_Eav
+"""%1"" is not a valid file.",,module,Magento_Eav
+"""%1"" exceeds the allowed file size.",,module,Magento_Eav
+"""%1"" is not a valid image format",,module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.",,module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.",,module,Magento_Eav
+"""%1"" cannot contain more than %2 lines.",,module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.",,module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.",,module,Magento_Eav
+"Group with id ""%1"" does not exist.",,module,Magento_Eav
+"AttributeSet with id ""%1"" does not exist.",,module,Magento_Eav
+"Attribute ""%1"" not found in attribute set %2.",,module,Magento_Eav
+"Attribute with attributeCode ""%1"" does not exist.",,module,Magento_Eav
+"Attribute with id ""%1"" does not exist.",,module,Magento_Eav
+"The attribute code '%1' is reserved by system. Please try another attribute code",,module,Magento_Eav
+"Invalid backend model specified: %1",,module,Magento_Eav
+"Source model ""%1"" not found for attribute ""%2""",,module,Magento_Eav
+"The value of attribute ""%1"" must be set",,module,Magento_Eav
+"The value of attribute ""%1"" must be unique",,module,Magento_Eav
+"Attribute %1 doesn't work with options",,module,Magento_Eav
+"Attribute %1 doesn't have any option",,module,Magento_Eav
+"Entity attribute with id ""%1"" not found",,module,Magento_Eav
+"An attribute set named ""%1"" already exists.",,module,Magento_Eav
+label,,module,Magento_Eav
+"The value of attribute ""%1"" is invalid.",,module,Magento_Eav
+"Base Unsecure URL",,module,Magento_Email
+"Base Secure URL",,module,Magento_Email
+%1,,module,Magento_Email
+"Requested invalid store ""%1""",,module,Magento_Email
+"<pre> %1 </pre>",,module,Magento_Email
+"CSS inlining error:",,module,Magento_Email
+Ground,,module,Magento_Fedex
+"First Overnight",,module,Magento_Fedex
+"Smart Post",,module,Magento_Fedex
+"Drop Box",,module,Magento_Fedex
+"Business Service Center",,module,Magento_Fedex
+Station,,module,Magento_Fedex
+"FedEx Pak",,module,Magento_Fedex
+"FedEx Box",,module,Magento_Fedex
+"FedEx Tube",,module,Magento_Fedex
+"FedEx 10kg Box",,module,Magento_Fedex
+"FedEx 25kg Box",,module,Magento_Fedex
+Adult,,module,Magento_Fedex
+Direct,,module,Magento_Fedex
+Indirect,,module,Magento_Fedex
+"Invalid response from carrier",,module,Magento_Fedex
+"No available tracking items",,module,Magento_Fedex
+"For some reason we can't retrieve tracking info right now.",,module,Magento_Fedex
+status,,module,Magento_Fedex
+"Gift Messages are not applicable for empty cart",,module,Magento_GiftMessage
+"Gift Messages are not applicable for virtual products",,module,Magento_GiftMessage
+"There is no item with provided id in the order or gift message isn't allowed",,module,Magento_GiftMessage
+"Could not add gift message to order: ""%1""",,module,Magento_GiftMessage
+"There is no order with provided id or gift message isn't allowed",,module,Magento_GiftMessage
+"Gift Messages are not applicable for empty order",,module,Magento_GiftMessage
+"Could not add gift message to order's item: ""%1""",,module,Magento_GiftMessage
+"Leave this box blank if you don't want to leave a gift message for the entire order.",,module,Magento_GiftMessage
+"Leave a box blank if you don't want to add a gift message for that item.",,module,Magento_GiftMessage
+"You can leave this box blank if you don't want to add a gift message for this address.",,module,Magento_GiftMessage
+"You can leave this box blank if you don't want to add a gift message for the item.",,module,Magento_GiftMessage
+Constant,,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.",,module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.",,module,Magento_GoogleAdwords
+"Google Analytics Content Experiments Code",,module,Magento_GoogleOptimizer
+"Experiment Code",,module,Magento_GoogleOptimizer
+"A grouped product is made up of multiple, standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.",,module,Magento_GroupedProduct
+ID,,module,Magento_GroupedProduct
+Thumbnail,,module,Magento_GroupedProduct
+Status,,module,Magento_GroupedProduct
+SKU,,module,Magento_GroupedProduct
+"Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",,module,Magento_Integration
+"%fieldName is a required field.",,module,Magento_Integration
+"Integration with name '%1' exists.",,module,Magento_Integration
+"Integration with ID '%1' does not exist.",,module,Magento_Integration
+"One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.",,module,Magento_Integration
+"Consumer with ID '%1' does not exist.",,module,Magento_Integration
+"Can be used only with catalog input type Dropdown, Multiple Select and Price.",,module,Magento_LayeredNavigation
+"Position of attribute in layered navigation block.",,module,Magento_LayeredNavigation
+item,,module,Magento_LayeredNavigation
+items,,module,Magento_LayeredNavigation
+Database,,module,Magento_MediaStorage
+"database ""%1""",,module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""",,module,Magento_MediaStorage
+"Path ""%value%"" is protected and cannot be used.",,module,Magento_MediaStorage
+"Path ""%value%"" is not available and cannot be used.",,module,Magento_MediaStorage
+"Path ""%value%"" may not include parent directory traversal (""../"", ""..\").",,module,Magento_MediaStorage
+"File with an extension ""%value%"" is protected and cannot be uploaded",,module,Magento_MediaStorage
+Product,,module,Magento_Multishipping
+"Order Review",,module,Magento_Multishipping
+Item,,module,Magento_Multishipping
+Items,,module,Magento_Multishipping
+"Sorry, no quotes are available for this order right now.",,module,Magento_Multishipping
+"Thanks for your order. We'll email you order details and tracking information.",,module,Magento_Multishipping
+"Your order numbers are: ",,module,Magento_Multishipping
+"Your order number is: ",,module,Magento_Multishipping
+"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.",,module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",,module,Magento_Newsletter
+"Store Pickup",,module,Magento_OfflineShipping
+"Per Order",,module,Magento_OfflineShipping
+"Per Item",,module,Magento_OfflineShipping
+"Unable to import data",,module,Magento_OfflineShipping
+"We couldn't import this file because of these errors: %1",,module,Magento_OfflineShipping
+"Requested column ""%1"" cannot be resolved",,module,Magento_OfflineShipping
+"Column ""%1"" not found",,module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.",,module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.",,module,Magento_OfflineShipping
+"Please correct %1 ""%2"" in the Row #%3.",,module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.",,module,Magento_OfflineShipping
+"Duplicate Row #%1 (duplicates row #%2)",,module,Magento_OfflineShipping
+"Export VCL for Varnish %1",,module,Magento_PageCache
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.",,module,Magento_PageCache
+"Built-in Cache",,module,Magento_PageCache
+"Varnish Cache (Recommended)",,module,Magento_PageCache
+N/A,,module,Magento_Payment
+"Command Executor for %1 is not defined.",,module,Magento_Payment
+"Transaction has been declined. Please try again later.",,module,Magento_Payment
+"You can't use the payment type you selected to make payments to the billing country.",,module,Magento_Payment
+"The payment review action is unavailable.",,module,Magento_Payment
+"The credit card number doesn't match the credit card type.",,module,Magento_Payment
+"%1 class doesn't implement \Magento\Payment\Model\MethodInterface",,module,Magento_Payment
+"We'll ask for your payment details before you place an order.",,module,Magento_Payment
+N/A,,module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.",,module,Magento_Paypal
+"We can't cancel the billing agreement.",,module,Magento_Paypal
+"The billing agreement ""%1"" has been created.",,module,Magento_Paypal
+"We couldn't finish the billing agreement wizard.",,module,Magento_Paypal
+"We can't start the billing agreement wizard.",,module,Magento_Paypal
+"We can't initialize Express Checkout.",,module,Magento_Paypal
+"We can't place the order.",,module,Magento_Paypal
+"We can't process Express Checkout approval.",,module,Magento_Paypal
+"We can't initialize Express Checkout review.",,module,Magento_Paypal
+"We can't update shipping method.",,module,Magento_Paypal
+"We can't start Express Checkout.",,module,Magento_Paypal
+"Requested payment method does not match with order.",,module,Magento_Paypal
+"Payment Gateway is unreachable at the moment. Please use another payment option.",,module,Magento_Paypal
+"PayPal response hasn't required fields.",,module,Magento_Paypal
+"I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.",,module,Magento_Paypal
+"I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.",,module,Magento_Paypal
+"A match of the Shipping Address City, State, and Postal Code failed.",,module,Magento_Paypal
+Shortcut,,module,Magento_Paypal
+"For Virtual Quotes Only",,module,Magento_Paypal
+Auto,,module,Magento_Paypal
+"API Signature",,module,Magento_Paypal
+"We'll authorize the amount of %1 as soon as the payment gateway approves it.",,module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",,module,Magento_Paypal
+"This customer didn't include a confirmed address.",,module,Magento_Paypal
+"The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.",,module,Magento_Paypal
+"The payment currency doesn't match any of the merchant's balances currency.",,module,Magento_Paypal
+"Buyer's Tax ID",,module,Magento_Paypal
+"Buyer's Tax ID Type",,module,Magento_Paypal
+"Matched (CVV2CSC)",,module,Magento_Paypal
+"Matched (CVV2)",,module,Magento_Paypal
+CNPJ,,module,Magento_Paypal
+CPF,,module,Magento_Paypal
+"Note: %1",,module,Magento_Paypal
+"IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4",,module,Magento_Paypal
+"IPN ""%1""",,module,Magento_Paypal
+"Payflow PNREF: #%1.",,module,Magento_Paypal
+"Invalid method %1::%2",,module,Magento_Paypal
+"Error processing payment. Please try again later.",,module,Magento_Paypal
+"Payment error. %value was not found.",,module,Magento_Paypal
+"We can't issue a refund transaction because there is no capture transaction.",,module,Magento_Paypal
+"Order ID",,module,Magento_Paypal
+AutoSweep,,module,Magento_Paypal
+Charge-off,,module,Magento_Paypal
+"Express Checkout APIs",,module,Magento_Paypal
+"General Funding of PayPal Account ",,module,Magento_Paypal
+Incentive,,module,Magento_Paypal
+"Preapproved Payment (BillUser API, either sent or received",,module,Magento_Paypal
+"We can't create a billing agreement for this order.",,module,Magento_Paypal
+"Billing Agreement # ",,module,Magento_Paypal
+Status:,,module,Magento_Paypal
+"Order #",,module,Magento_Paypal
+Status,,module,Magento_Paypal
+"Your billing agreement # is: ",,module,Magento_Paypal
+"Sorry, no quotes are available for this order right now.",,module,Magento_Paypal
+Item,,module,Magento_Paypal
+"Method ""%1"" is not defined in ""%2""",,module,Magento_Persistent
+"What's this?",,module,Magento_Persistent
+"We can't update the alert subscription right now.",,module,Magento_ProductAlert
+"We can't find the product.",,module,Magento_ProductAlert
+"Unable to save address. Please check input data.",,module,Magento_Quote
+"Cart %1 doesn't contain products",,module,Magento_Quote
+"Cannot assign customer to the given cart. You don't have permission for this operation.",,module,Magento_Quote
+"We found an invalid request for adding product to quote.",,module,Magento_Quote
+"This is the wrong quote item id to update configuration.",,module,Magento_Quote
+"The address total model should be extended from
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",,module,Magento_Quote
+"Cart %1 does not contain item %2",,module,Magento_Quote
+"Could not save quote",,module,Magento_Quote
+"Cart %1 doesn't contain item  %2",,module,Magento_Quote
+"Could not remove item from quote",,module,Magento_Quote
+"The qty value is required to update quote item.",,module,Magento_Quote
+"Invalid customer address id %1",,module,Magento_Quote
+"Cannot create quote",,module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.",,module,Magento_Quote
+"Only 1 shipping assignment can be set",,module,Magento_Quote
+"Store Credit",,module,Magento_Quote
+Coupons,,module,Magento_Reports
+Bestsellers,,module,Magento_Reports
+"Reviews %1",,module,Magento_Review
+Reviews,,module,Magento_Review
+"Cannot initialize product",,module,Magento_Review
+"We can't post your review right now.",,module,Magento_Review
+Administrator,,module,Magento_Review
+Rating,,module,Magento_Review
+Review,,module,Magento_Review
+"%1 %2",,module,Magento_Review
+Nickname,,module,Magento_Review
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>",,module,Magento_Review
+"%1 Review(s)",,module,Magento_Review
+"Product Rating",,module,Magento_Review
+Feed,,module,Magento_Rss
+is,,module,Magento_Rule
+"The ""%1"" product is not part of the current creditmemo.",,module,Magento_SalesInventory
+"The return to stock argument contains product item that is not part of the original order.",,module,Magento_SalesInventory
+Auto,,module,Magento_SalesRule
+"Can't acquire coupon.",,module,Magento_SalesRule
+is,,module,Magento_SalesRule
+"Order # %1",,module,Magento_Sales
+"Print Order # %1",,module,Magento_Sales
+"We can't add this item to your shopping cart right now.",,module,Magento_Sales
+Home,,module,Magento_Sales
+"Order Information",,module,Magento_Sales
+"We can't find this wish list.",,module,Magento_Sales
+"Shipping Address: ",,module,Magento_Sales
+"Billing Address: ",,module,Magento_Sales
+"""Invoice Document Validation Error(s):\n"" .",,module,Magento_Sales
+"Could not save an invoice, see error log for details",,module,Magento_Sales
+"Requested entity doesn't exist",,module,Magento_Sales
+"The creditmemo contains product item that is not part of the original order.",,module,Magento_Sales
+"The quantity to refund must not be greater than the unrefunded quantity.",,module,Magento_Sales
+"Order Id is required for creditmemo document",,module,Magento_Sales
+"The creditmemo contains product SKU ""%1"" that is not part of the original order.",,module,Magento_Sales
+"The quantity to creditmemo must not be greater than the unrefunded quantity for product SKU ""%1"".",,module,Magento_Sales
+"The credit memo's total must be positive.",,module,Magento_Sales
+"You can't create a creditmemo without products.",,module,Magento_Sales
+"Could not delete credit memo",,module,Magento_Sales
+"We can't create creditmemo for the invoice.",,module,Magento_Sales
+"Order Id is required for invoice document",,module,Magento_Sales
+"The quantity to invoice must not be greater than the uninvoiced quantity for product SKU ""%1"".",,module,Magento_Sales
+"The invoice contains one or more items that are not part of the original order.",,module,Magento_Sales
+"You can't create an invoice without products.",,module,Magento_Sales
+Capture,,module,Magento_Sales
+"You can't do this without a transaction object.",,module,Magento_Sales
+"Order # ",,module,Magento_Sales
+"Order Date: ",,module,Magento_Sales
+"We don't recognize the draw line data. Please define the ""lines"" array.",,module,Magento_Sales
+SKU,,module,Magento_Sales
+"Credit Memo # ",,module,Magento_Sales
+"Invoice # ",,module,Magento_Sales
+"Packing Slip # ",,module,Magento_Sales
+"Parent shipment cannot be loaded for track object.",,module,Magento_Sales
+"Order Id is required for shipment document",,module,Magento_Sales
+"You can't create a shipment without products.",,module,Magento_Sales
+"The shipment contains product SKU ""%1"" that is not part of the original order.",,module,Magento_Sales
+"The quantity to ship must not be greater than the unshipped quantity for product SKU ""%1"".",,module,Magento_Sales
+"The last status can't be unassigned from its current state.",,module,Magento_Sales
+"Status can't be unassigned, because it is used by existing order(s).",,module,Magento_Sales
+"An invoice cannot be created when an order has a status of %1",,module,Magento_Sales
+"A creditmemo can not be created when an order has a status of %1",,module,Magento_Sales
+"The order does not allow a creditmemo to be created.",,module,Magento_Sales
+"A shipment cannot be created when an order has a status of %1",,module,Magento_Sales
+"The order does not allow a shipment to be created.",,module,Magento_Sales
+"""Creditmemo Document Validation Error(s):\n"" .",,module,Magento_Sales
+"Could not save a Creditmemo, see error log for details",,module,Magento_Sales
+"We can't save the address:\n%1",,module,Magento_Sales
+"Cannot save comment:\n%1",,module,Magento_Sales
+"We don't have enough information to save the parent transaction ID.",,module,Magento_Sales
+"Cannot save track:\n%1",,module,Magento_Sales
+"""Shipment Document Validation Error(s):\n"" .",,module,Magento_Sales
+"Could not save a shipment, see error log for details",,module,Magento_Sales
+Items,,module,Magento_Sales
+"Order ID",,module,Magento_Sales
+"Order #",,module,Magento_Sales
+Status,,module,Magento_Sales
+"Recently Ordered",,module,Magento_Sales
+"Your search query can't be longer than %1, so we shortened your query.",,module,Magento_Search
+"Synonym group with id %1 cannot be deleted. %2",,module,Magento_Search
+"Merge conflict with existing synonym group(s): %1",,module,Magento_Search
+"    All Store Views",,module,Magento_Search
+"Are you sure you want to delete synonym group with id: %1?",,module,Magento_Search
+View/Edit,,module,Magento_Search
+"You can't send messages more than %1 times an hour.",,module,Magento_SendFriend
+"You've met your limit of %1 sends in an hour.",,module,Magento_SendFriend
+"Order # %1",,module,Magento_Shipping
+"Sorry, but we can't deliver to the destination country with this shipping module.",,module,Magento_Shipping
+Live,,module,Magento_Shipping
+Type,,module,Magento_Shipping
+Product,,module,Magento_Shipping
+"We don't have enough information to create shipping labels. Please make sure your store information and settings are complete.",,module,Magento_Shipping
+"Per Order",,module,Magento_Shipping
+SKU,,module,Magento_Shipping
+"Order tracking",,module,Magento_Shipping
+Carrier:,,module,Magento_Shipping
+Error:,,module,Magento_Shipping
+"Tracking information is currently not available. Please ",,module,Magento_Shipping
+" for more information or ",,module,Magento_Shipping
+"email us at ",,module,Magento_Shipping
+Info:,,module,Magento_Shipping
+Track:,,module,Magento_Shipping
+". ':'",,module,Magento_Shipping
+N/A,,module,Magento_Shipping
+"Please create the specified folder ""%1"" before saving the sitemap.",,module,Magento_Sitemap
+"Invalid store parameter.",,module,Magento_Store
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.",,module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.",,module,Magento_Store
+Admin,,module,Magento_Store
+"%fieldName is a required field.",,module,Magento_Tax
+"Invalid value of ""%value"" provided for the %fieldName field.",,module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",,module,Magento_Tax
+Code,,module,Magento_Tax
+"No such entity with %fieldName = %fieldValue",,module,Magento_Tax
+"Warning tax configuration can result in rounding errors. ",,module,Magento_Tax
+"Store(s) affected: ",,module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>",,module,Magento_Tax
+"Warning tax discount configuration might result in different discounts
+                                than a customer might expect. ",,module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ",,module,Magento_Tax
+"Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.",,module,Magento_Tax
+product,,module,Magento_Tax
+welcome,,module,Magento_Theme
+"Invalid scope or scope id",,module,Magento_Theme
+"%1 does not contain field '%2'",,module,Magento_Theme
+"%1 does not contain field 'file'",,module,Magento_Theme
+"Backend model is not specified for %1",,module,Magento_Theme
+"The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.",,module,Magento_Theme
+"Can not save empty config",,module,Magento_Theme
+label,,module,Magento_Theme
+"The start date can't follow the end date.",,module,Magento_Theme
+"We can't upload the file right now.",,module,Magento_Theme
+"We can't delete root directory %1 right now.",,module,Magento_Theme
+"Theme isn't deletable.",,module,Magento_Theme
+"Local Storage seems to be disabled in your browser.",,module,Magento_Theme
+"%1 Item",,module,Magento_Theme
+"%1 Item(s)",,module,Magento_Theme
+"You're currently reading page",,module,Magento_Theme
+"The configuration parameter ""formElement"" is a required for ""%1"" field.",,module,Magento_Ui
+"Remove %1",,module,Magento_Ui
+"Add New %1",,module,Magento_Ui
+"New %1",,module,Magento_Ui
+"Parameter ""class"" must be present.",,module,Magento_Ui
+"Parameter ""sortOrder"" must be present.",,module,Magento_Ui
+"Invalid UI Component element name: '%1'",,module,Magento_Ui
+"UPS Next Day Air",,module,Magento_Ups
+"UPS Second Day Air",,module,Magento_Ups
+"UPS Ground",,module,Magento_Ups
+"UPS Worldwide Express",,module,Magento_Ups
+"UPS Worldwide Expedited",,module,Magento_Ups
+"UPS Standard",,module,Magento_Ups
+"UPS Three-Day Select",,module,Magento_Ups
+"UPS Next Day Air Saver",,module,Magento_Ups
+"UPS Next Day Air Early A.M.",,module,Magento_Ups
+"UPS Worldwide Express Plus",,module,Magento_Ups
+"UPS Second Day Air A.M.",,module,Magento_Ups
+"UPS Saver",,module,Magento_Ups
+"UPS Worldwide Saver",,module,Magento_Ups
+"UPS Express",,module,Magento_Ups
+"UPS Expedited",,module,Magento_Ups
+"UPS Express Early A.M.",,module,Magento_Ups
+"UPS Worldwide Express PlusSM",,module,Magento_Ups
+"UPS Today Standard",,module,Magento_Ups
+"UPS Today Dedicated Courrier",,module,Magento_Ups
+"UPS Today Intercity",,module,Magento_Ups
+"UPS Today Express",,module,Magento_Ups
+"UPS Today Express Saver",,module,Magento_Ups
+"UPS Express Plus",,module,Magento_Ups
+"Next Day Air Early AM",,module,Magento_Ups
+"Next Day Air Early AM Letter",,module,Magento_Ups
+"Next Day Air",,module,Magento_Ups
+"Next Day Air Letter",,module,Magento_Ups
+"Next Day Air Intra (Puerto Rico)",,module,Magento_Ups
+"Next Day Air Saver",,module,Magento_Ups
+"Next Day Air Saver Letter",,module,Magento_Ups
+"2nd Day Air AM",,module,Magento_Ups
+"2nd Day Air AM Letter",,module,Magento_Ups
+"2nd Day Air",,module,Magento_Ups
+"2nd Day Air Letter",,module,Magento_Ups
+"3 Day Select",,module,Magento_Ups
+Ground,,module,Magento_Ups
+"Ground Commercial",,module,Magento_Ups
+"Ground Residential",,module,Magento_Ups
+"Canada Standard",,module,Magento_Ups
+"Worldwide Express",,module,Magento_Ups
+"Worldwide Express Saver",,module,Magento_Ups
+"Worldwide Express Letter",,module,Magento_Ups
+"Worldwide Express Plus",,module,Magento_Ups
+"Worldwide Express Plus Letter",,module,Magento_Ups
+"Worldwide Expedited",,module,Magento_Ups
+"UPS Letter Envelope",,module,Magento_Ups
+"UPS Tube",,module,Magento_Ups
+PAK,,module,Magento_Ups
+"UPS Express Box",,module,Magento_Ups
+"UPS Worldwide 25 kilo",,module,Magento_Ups
+"UPS Worldwide 10 kilo",,module,Magento_Ups
+Pallet,,module,Magento_Ups
+"Small Express Box",,module,Magento_Ups
+"Medium Express Box",,module,Magento_Ups
+"Large Express Box",,module,Magento_Ups
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.",,module,Magento_Ups
+"We can't convert a rate from ""%1-%2"".",,module,Magento_Ups
+status,,module,Magento_Ups
+error_message,,module,Magento_Ups
+label,,module,Magento_Ups
+"United Parcel Service",,module,Magento_Ups
+"United Parcel Service XML",,module,Magento_Ups
+"We can't set up a URL rewrite because the product you chose is not associated with a website.",,module,Magento_UrlRewrite
+Product:,,module,Magento_UrlRewrite
+ID,,module,Magento_UrlRewrite
+SKU,,module,Magento_UrlRewrite
+Status,,module,Magento_UrlRewrite
+"Permanent (301)",,module,Magento_UrlRewrite
+Status,,module,Magento_User
+email,,module,Magento_User
+username,,module,Magento_User
+"Your account is temporarily disabled.",,module,Magento_User
+"It's time to change your password.",,module,Magento_User
+"It's time to <a href=""%1"">change your password</a>.",,module,Magento_User
+"Retail Ground",,module,Magento_Usps
+"For some reason we can't retrieve tracking info right now.",,module,Magento_Usps
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.",,module,Magento_Usps
+track_summary,,module,Magento_Usps
+%1,,module,Magento_Variable
+"No token found.",,module,Magento_Vault
+"Wrong request.",,module,Magento_Vault
+"Deletion failure. Please try again.",,module,Magento_Vault
+"Stored Payment Method was successfully removed",,module,Magento_Vault
+"Stored Payment Methods",,module,Magento_Vault
+Type,,module,Magento_Vault
+"You have no stored payment methods.",,module,Magento_Vault
+"PayPal Account",,module,Magento_Vault
+"You must set unique country-state combinations within the same fixed product tax",,module,Magento_Weee
+label_value,,module,Magento_Weee
+frontend_label,,module,Magento_Weee
+Website,,module,Magento_Weee
+label,,module,Magento_Widget
+"We can't specify a product.",,module,Magento_Wishlist
+"We can't add the item to Wish List right now: %1.",,module,Magento_Wishlist
+"We can't add the item to Wish List right now.",,module,Magento_Wishlist
+"We can't add the item to the cart right now.",,module,Magento_Wishlist
+"We can't load the Wish List item right now.",,module,Magento_Wishlist
+"We can't configure the product right now.",,module,Magento_Wishlist
+"The requested cart item doesn't exist.",,module,Magento_Wishlist
+"We can't move the item to the wish list.",,module,Magento_Wishlist
+"We can't delete the item from Wish List right now because of an error: %1.",,module,Magento_Wishlist
+"We can't delete the item from the Wish List right now.",,module,Magento_Wishlist
+"We can't delete item from Wish List right now.",,module,Magento_Wishlist
+"Can't save description %1",,module,Magento_Wishlist
+"Can't update wish list",,module,Magento_Wishlist
+"We can't update your Wish List right now.",,module,Magento_Wishlist
+"The requested Wish List doesn't exist.",,module,Magento_Wishlist
+"We can't create the Wish List right now.",,module,Magento_Wishlist
+"%1 items",,module,Magento_Wishlist
+"1 item",,module,Magento_Wishlist
+"We can't specify a wish list.",,module,Magento_Wishlist
+"We can't add this item to your shopping cart right now.",,module,Magento_Wishlist
+"We couldn't add the following product(s) to the shopping cart: %1.",,module,Magento_Wishlist
+"We can't update the Wish List right now.",,module,Magento_Wishlist
+"%1's Wishlist",,module,Magento_Wishlist
+"We can't specify a wish list item.",,module,Magento_Wishlist
+"%1 has been added to your Wish List.",,module,Magento_Wishlist
+Product,,module,Magento_Wishlist
+"Save for later use.",,module,Magento_Braintree
+"Attention: Captcha is case sensitive.",,module,Magento_Captcha
+"My billing and shipping address are the same",,module,Magento_Checkout
+Update,,module,Magento_Checkout
+"Estimated Total",,module,Magento_Checkout
+item,,module,Magento_Checkout
+items,,module,Magento_Checkout
+"Recently added item(s)",,module,Magento_Checkout
+"No Payment method available.",,module,Magento_Checkout
+"You can track your order status by creating an account.",,module,Magento_Checkout
+"Forgot an Item?",,module,Magento_Checkout
+"Edit Your Cart",,module,Magento_Checkout
+"Ship Here",,module,Magento_Checkout
+"Ship To:",,module,Magento_Checkout
+edit,,module,Magento_Checkout
+"Select Method",,module,Magento_Checkout
+"Method Title",,module,Magento_Checkout
+"Carrier Title",,module,Magento_Checkout
+"Sorry, no quotes are available for this order at this time",,module,Magento_Checkout
+"Item in Cart",,module,Magento_Checkout
+"View Details",,module,Magento_Checkout
+"Welcome to %store_name",,module,Magento_Customer
+"%name,",,module,Magento_Customer
+"Please confirm your %store_name account",,module,Magento_Customer
+"Your %store_name email has been changed",,module,Magento_Customer
+"Hello,",,module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email.",,module,Magento_Customer
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>",,module,Magento_Customer
+"Thanks,<br>%store_name",,module,Magento_Customer
+"Your %store_name email and password has been changed",,module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email, password.",,module,Magento_Customer
+"Reset your %store_name password",,module,Magento_Customer
+"Your %store_name password has been changed",,module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: password.",,module,Magento_Customer
+Footer,,module,Magento_Email
+Header,,module,Magento_Email
+"Gift Message (optional)",,module,Magento_GiftMessage
+Update,,module,Magento_GiftMessage
+"Gift options",,module,Magento_GiftMessage
+"Newsletter subscription confirmation",,module,Magento_Newsletter
+"Newsletter subscription success",,module,Magento_Newsletter
+"Newsletter unsubscription success",,module,Magento_Newsletter
+"Forgot an Item?",,module,Magento_Payment
+"Edit Your Cart",,module,Magento_Payment
+"Sign a billing agreement to streamline further purchases with PayPal.",,module,Magento_Paypal
+"Continue to PayPal",,module,Magento_Paypal
+"Save credit card information for future use.",,module,Magento_Paypal
+"Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.",,module,Magento_Persistent
+"Products price changed alert",,module,Magento_ProductAlert
+"%name,",,module,Magento_ProductAlert
+"Products back in stock alert",,module,Magento_ProductAlert
+"Cancel coupon",,module,Magento_SalesRule
+"Credit memo for your %store_name order",,module,Magento_Sales
+"%name,",,module,Magento_Sales
+"Update to your %store_name credit memo",,module,Magento_Sales
+"Invoice for your %store_name order",,module,Magento_Sales
+"Update to your %store_name invoice",,module,Magento_Sales
+"Your %store_name order confirmation",,module,Magento_Sales
+"%customer_name,",,module,Magento_Sales
+"Update to your %store_name order",,module,Magento_Sales
+"Your %store_name order has shipped",,module,Magento_Sales
+"Update to your %store_name shipment",,module,Magento_Sales
+"Welcome, %name",,module,Magento_SendFriend
+"%name,",,module,Magento_SendFriend
+"See our Shipping Policy",,module,Magento_Shipping
+Assign,,module,Magento_Ui
+of,,module,Magento_Ui
+Filters,,module,Magento_Ui
+"Take a look at %customer_name's Wish List",,module,Magento_Wishlist
+"Welcome to %store_name",,theme,frontend/Magento/luma
+"%name,",,theme,frontend/Magento/luma
+Footer,,theme,frontend/Magento/luma
+"<a href=""tel:%store_phone"">%store_phone</a>",,theme,frontend/Magento/luma
+"Credit memo for your %store_name order",,theme,frontend/Magento/luma
+"Update to your %store_name credit memo",,theme,frontend/Magento/luma
+"Invoice for your %store_name order",,theme,frontend/Magento/luma
+"Update to your %store_name invoice",,theme,frontend/Magento/luma
+"Your %store_name order confirmation",,theme,frontend/Magento/luma
+"%customer_name,",,theme,frontend/Magento/luma
+"Update to your %store_name order",,theme,frontend/Magento/luma
+"Your %store_name order has shipped",,theme,frontend/Magento/luma
+"Update to your %store_name shipment",,theme,frontend/Magento/luma
+"All ",,lib,lib/web/mage/menu.js
+"Please try again with another form of payment.",,module,Magento_Braintree
+"Sorry, but something went wrong.",,module,Magento_Braintree
+"Payment ",,module,Magento_Braintree
+MM,,module,Magento_Braintree
+YY,,module,Magento_Braintree
+"Provided Zip/Postal Code seems to be invalid.",,module,Magento_Checkout
+" Example: ",,module,Magento_Checkout
+"If you believe it is the right one you can ignore this notice.",,module,Magento_Checkout
+"Select a new payment method",,module,Magento_Checkout
+Weak,,module,Magento_Customer
+Medium,,module,Magento_Customer
+Strong,,module,Magento_Customer
+"Very Strong",,module,Magento_Customer
+"Field ",,module,Magento_Dhl
+" is required.",,module,Magento_Dhl
+"Field ",,module,Magento_Fedex
+" is required.",,module,Magento_Fedex
+"We can't complete your order because you don't have a payment method set up.",,module,Magento_Multishipping
+"Field ",,module,Magento_OfflineShipping
+" is required.",,module,Magento_OfflineShipping
+"Please enter a valid credit card type number.",,module,Magento_Payment
+"Incorrect credit card expiration month.",,module,Magento_Payment
+"Incorrect credit card expiration year.",,module,Magento_Payment
+"An error occurred on the server. Please try to place the order again.",,module,Magento_Payment
+"Your coupon was successfully removed.",,module,Magento_SalesRule
+"Your coupon was successfully applied.",,module,Magento_SalesRule
+"Something went wrong.",,module,Magento_Ui
+options,,module,Magento_Ui
+Selected,,module,Magento_Ui
+"Select All on This Page",,module,Magento_Ui
+"Deselect All on This Page",,module,Magento_Ui
+On,,module,Magento_Ui
+Off,,module,Magento_Ui
+"New View",,module,Magento_Ui
+"Default View",,module,Magento_Ui
+"${ $.visible } out of ${ $.total } visible",,module,Magento_Ui
+"You have successfully saved your edits.",,module,Magento_Ui
+"You haven't selected any items!",,module,Magento_Ui
+"Search by keyword",,module,Magento_Ui
+Keyword,,module,Magento_Ui
+"Vul hier een geldige datum in.",,module,Magento_Ui
+"Please enter 6 or more characters. Leading and trailing spaces will be ignored.",,module,Magento_Ui
+"Please enter a value less than or equal to {0}.",,module,Magento_Ui
+"Please enter a value greater than or equal to {0}.",,module,Magento_Ui
+"We don't recognize or support this file extension type.",,module,Magento_Ui
+"File you are trying to upload exceeds maximum file size limit.",,module,Magento_Ui
+"Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.",,module,Magento_Ui
+"The date is not within the specified range.",,module,Magento_Ui
+OK,,module,Magento_Ui
+Ok,,module,Magento_Ui
+"Field ",,module,Magento_Ups
+" is required.",,module,Magento_Ups
+"Field ",,module,Magento_Usps
+" is required.",,module,Magento_Usps
+"Category List Widget",,module,Emizentech_CategoryWidget
+"Image Type",,module,Emizentech_CategoryWidget
+"With Image",,module,Emizentech_CategoryWidget
+"Image Width",,module,Emizentech_CategoryWidget
+"Enter Image width Ex. 250 , do not suffix with px",,module,Emizentech_CategoryWidget
+"Image Height",,module,Emizentech_CategoryWidget
+"Enter Image Height Ex. 250 , do not suffix with px",,module,Emizentech_CategoryWidget
+"Specific Parent Category ID",,module,Emizentech_CategoryWidget
+"Default Category of Current Store will be used in case of Blank",,module,Emizentech_CategoryWidget
+Rollback,,module,Magento_Backup
+Template,,module,Magento_CatalogWidget
+"Product EAV",,module,Magento_Catalog
+"Index product EAV",,module,Magento_Catalog
+Template,,module,Magento_Catalog
+Details,,module,Magento_Catalog
+Template,,module,Magento_Cms
+"Customer Notification",,module,Magento_Customer
+"Disable Automatic Group Change Based on VAT ID",,module,Magento_Customer
+"Google API",,module,Magento_GoogleAnalytics
+"Full page caching",,module,Magento_PageCache
+Marketing,,module,Magento_Reports
+Reviews,,module,Magento_Reports
+Downloads,,module,Magento_Reports
+Ratings,,module,Magento_Review
+Template,,module,Magento_Sales
+"Search Synonyms",,module,Magento_Search
+"Site Map",,module,Magento_Sitemap
+Layouts,,module,Magento_Store
+"Database DDL operations",,module,Magento_Store
+"Copyright © 2017 Magento, Inc. All rights reserved.",,module,Magento_Theme
+"Design Config Grid",,module,Magento_Theme
+Menu,,module,Magento_Theme
+Account,,module,Magento_Theme
+CSV,,module,Magento_Ui
+"Excel XML",,module,Magento_Ui
+Widgets,,module,Magento_Widget
