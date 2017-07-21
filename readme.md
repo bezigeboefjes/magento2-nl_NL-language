@@ -3,7 +3,7 @@
 Dutch Magento 2 translations for Magento 2 (CE), translated, optimized forked from Adwise - Your Digital Brain.
 
 ### Version
-1.2.4
+1.2.5
 
 ### Configure Magento backend
 * Activate language (backend): Account > Settings > Account information > Interface Locale
