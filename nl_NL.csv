@@ -3821,7 +3821,8 @@ Items,Items,module,Magento_Reports
 ID,ID,module,Magento_Reports
 "First Name","Voornaam","module","Magento_Reports"
 "Last Name","Achternaam","module","Magento_Reports"
-"Items in Cart","Items in winkelwagen","module","Magento_Reports"
+"Item in Cart","Product in winkelwagen","module","Magento_Reports"
+"Items in Cart","Producten in winkelwagen","module","Magento_Reports"
 "Products in carts","Producten in winkelwagen","module","Magento_Reports"
 "Carts","Winkelwagens","module","Magento_Reports"
 "Name","Naam","module","Magento_Reports"
@@ -9420,6 +9421,7 @@ edit,bewerken,module,Magento_Checkout
 "Carrier Title","Titel van de vervoerder",module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order",module,Magento_Checkout
 "Item in Cart","Product in winkelwagen",module,Magento_Checkout
+"Items in Cart","Producten in winkelwagen",module,Magento_Checkout
 "View Details","Bekijk details",module,Magento_Checkout
 "Welcome to %store_name","Welkom bij %store_name",module,Magento_Customer
 "%name,","%name,",module,Magento_Customer
