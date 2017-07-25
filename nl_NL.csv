@@ -8363,8 +8363,8 @@ SKU,Art.nr.,module,Magento_BundleStaging
 "Stock with id ""%1"" does not exist.","Voorraad met id ""%1"" bestaat niet.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","Product met art.nr. ""%1"" bestaat niet",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested.","Onvoldoende voorraad beschikbaar voor: ""%1"".",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals je gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
-"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals je gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" op voorraad, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" op voorraad, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","We kunnen geen index herbouwen voor een ongedefinieerd product.",module,Magento_CatalogRule
 "Catalog rule indexing failed. See details in exception log.","Catalog rule indexing failed. See details in exception log.",module,Magento_CatalogRule
 "You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%1 catalogus prijsregel is uitgeschakeld op basis van attribuut ""%2"".",module,Magento_CatalogRule
@@ -8509,9 +8509,9 @@ Home,Home,module,Magento_Cms
 "Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".","Geef een URL of het pad dat begint met placeholder(s): %1, en eindigt met ""/"".",module,Magento_Config
 "Selected allowed currency ""%1"" is not available in installed currencies.","Geselecteerde toegestane waarde ""%1"" is niet beschikbaar in geïnstalleerde waardens.",module,Magento_Config
 "Default display currency ""%1"" is not available in allowed currencies.","Standaard-valuta ""%1"" is niet beschikbaar in toegestane valuta.",module,Magento_Config
-"Sorry, we haven't installed the base currency you selected.","We hebben de basisvaluta niet geïnstalleerd die je geselecteerd heeft.",module,Magento_Config
+"Sorry, we haven't installed the base currency you selected.","We hebben de basisvaluta niet geïnstalleerd die je geselecteerd hebt.",module,Magento_Config
 "We can't save the Cron expression.","We kunnen de Cron opdracht niet opslaan.",module,Magento_Config
-"Sorry, we haven't installed the default display currency you selected.","Sorry, het is niet gelukt om de standaard valuta welke je heeft geselecteerd in te stellen.",module,Magento_Config
+"Sorry, we haven't installed the default display currency you selected.","Sorry, het is niet gelukt om de standaard valuta welke je hebt geselecteerd in te stellen.",module,Magento_Config
 "Please correct the email address: ""%1"".","Corrigeer het e-mailadres: ""%1"".",module,Magento_Config
 "The sender name ""%1"" is not valid. Please use only visible characters and spaces.","De afzender naam ""%1"" is niet geldig. Gebruik alleen zichtbare tekens en spaties.",module,Magento_Config
 %1,%1,module,Magento_Config
@@ -9074,7 +9074,7 @@ Items,Items,module,Magento_Multishipping
 N/A,n.v.t.,module,Magento_Payment
 "Command Executor for %1 is not defined.","Opdracht Executor voor %1 is niet gedefinieerd.",module,Magento_Payment
 "Transaction has been declined. Please try again later.","Transactie is afgewezen. Probeer het later nog eens.",module,Magento_Payment
-"You can't use the payment type you selected to make payments to the billing country.","Je kunt het betalingstype dat je geselecteerd heeft om te betalen niet gebruiken voor het land van je factuuradres.",module,Magento_Payment
+"You can't use the payment type you selected to make payments to the billing country.","Je kunt het betalingstype dat je geselecteerd hebt om te betalen niet gebruiken voor het land van je factuuradres.",module,Magento_Payment
 "The payment review action is unavailable.","De betaalcontrole is niet beschikbaar",module,Magento_Payment
 "The credit card number doesn't match the credit card type.","Het creditcardnummer komt niet overeen met het type creditcard.",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Wij zullen vragen om je betalingsgegevens voordat je een bestelling plaatst.",module,Magento_Payment
@@ -9138,7 +9138,7 @@ Item,Item,module,Magento_Paypal
 "We can't find the product.","We kunnen het product niet vinden.",module,Magento_ProductAlert
 "Unable to save address. Please check input data.","Kan het adres niet opslaan. Controleer de ingevoerde gegevens.",module,Magento_Quote
 "Cart %1 doesn't contain products","Winkelwagen %1 bevat geen producten",module,Magento_Quote
-"Cannot assign customer to the given cart. You don't have permission for this operation.","Kan klant niet aan de opgegeven winkelwagen koppelen. Je heeft geen bevoegdheid om dit uit te voeren.",module,Magento_Quote
+"Cannot assign customer to the given cart. You don't have permission for this operation.","Kan klant niet aan de opgegeven winkelwagen koppelen. Je hebt geen bevoegdheid om dit uit te voeren.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de Quote.",module,Magento_Quote
 "This is the wrong quote item id to update configuration.","Dit is het verkeerde quote item id om de configuratie bij te werken.",module,Magento_Quote
 "Cart %1 does not contain item %2","Winkelwagen %1 bevat product %2 niet",module,Magento_Quote
@@ -9500,7 +9500,7 @@ Weak,Zwak,module,Magento_Customer
 Medium,Gemiddeld,module,Magento_Customer
 Strong,Sterk,module,Magento_Customer
 "Very Strong","Zeer Sterk",module,Magento_Customer
-"We can't complete your order because you don't have a payment method set up.","We kunnen je bestelling niet voltooien omdat je geen bestalingsmethode heeft ingesteld.",module,Magento_Multishipping
+"We can't complete your order because you don't have a payment method set up.","We kunnen je bestelling niet voltooien omdat je geen bestalingsmethode hebt ingesteld.",module,Magento_Multishipping
 "Please enter a valid credit card type number.","Geef a. u. b. een geldig creditcard-nummer op.",module,Magento_Payment
 "Incorrect credit card expiration month.","Onjuiste vervalmaand van creditcard.",module,Magento_Payment
 "Incorrect credit card expiration year.","Onjuist vervaljaar van creditcard.",module,Magento_Payment
