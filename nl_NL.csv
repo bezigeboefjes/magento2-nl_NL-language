@@ -8309,6 +8309,7 @@ Account,Account,module,Magento_Theme
 "Request new password","Nieuw wachtwoord aanvragen","module","Magento_Customer"
 "Cart","Winkelwagen","module","Magento_Checkout"
 "View and edit cart","Wijzig winkelwagen","module","Module_Checkout"
+"View and Edit Cart","Wijzig winkelwagen","module","Module_Checkout"
 "Review & Payments","Betaling","module","Magento_Checkout"
 "Review &amp; Payments","Betaling","module","Magento_Checkout"
 "Notify me when this product is in stock","Informeer me wanneer dit product op voorraad is","module","Magento_Catalog"
@@ -9423,6 +9424,9 @@ edit,bewerken,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order",module,Magento_Checkout
 "Item in Cart","Product in winkelwagen",module,Magento_Checkout
 "Items in Cart","Producten in winkelwagen",module,Magento_Checkout
+" item"," product",module,Magento_Checkout
+" items"," producten",module,Magento_Checkout
+Item,Product,module,Magento_Checkout
 "View Details","Bekijk details",module,Magento_Checkout
 "Welcome to %store_name","Welkom bij %store_name",module,Magento_Customer
 "%name,","%name,",module,Magento_Customer
