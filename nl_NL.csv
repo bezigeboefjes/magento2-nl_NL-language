@@ -9565,3 +9565,6 @@ Account,Account,module,Magento_Theme
 CSV,CSV,module,Magento_Ui
 "Excel XML","Excel XML",module,Magento_Ui
 Widgets,Widget,module,Magento_Widget
+"You are subscribed to our newsletter.","Je bent ingeschreven voor onze nieuwsbrief",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Je bent nog niet ingeschreven voor onze nieuwsbrief",module,Magento_Customer
+
