@@ -1427,7 +1427,7 @@ Checkout,Checkout,module,Magento_Checkout
 "Message","Bericht","module","Magento_Checkout"
 "<a href="%1" onclick="this.target='_blank'" class="print">Print receipt</a>","<a href="%1" onclick="this.target='_blank'" class="print">Print ontvangstbewijs</a>","module","Magento_Checkout"
 "Apply Discount Code","Kortingscode toepassen","module","Magento_Checkout"
-"Enter discount code","Kortingscsode invoeren","module","Magento_Checkout"
+"Enter discount code","Kortingscode invoeren","module","Magento_Checkout"
 "Apply Discount","Korting toepassen","module","Magento_Checkout"
 "Cancel Coupon","Annuleer coupon","module","Magento_Checkout"
 "Shopping Cart Items","Items winkelwagen","module","Magento_Checkout"
